@@ -1,0 +1,29 @@
+@import url("./src/styles/header.css");
+@import url("./src/styles/banner.css");
+@import url("./src/styles/places.css");
+
+:root {
+  --black: #000000;
+  --black-transparent75: #00000075;
+  --white: #ffffff;
+  --white-page: #fefbf6;
+  --red: #c62828;
+  --blue: #1565c0;
+  --grey: #444444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  background-color: var(--white-page);
+}
+
+a {
+  text-decoration: none;
+}
