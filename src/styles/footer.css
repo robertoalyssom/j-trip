@@ -1,0 +1,10 @@
+.logo-footer {
+  font-size: 2.5rem;
+}
+.logo-footer::first-letter {
+  font-size: 2.6rem;
+}
+
+.footer-links_list {
+  list-style: none;
+}
