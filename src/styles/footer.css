@@ -8,3 +8,7 @@
 .footer-links_list {
   list-style: none;
 }
+
+.icon-insta {
+  color: var(--pink);
+}
