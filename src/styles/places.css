@@ -2,10 +2,10 @@
   position: relative;
   margin-top: 5rem;
 }
-.places-section::before {
+.places-section::before,
+.places-section::after {
   content: "";
   position: absolute;
-  top: -25px;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 110px;
@@ -13,22 +13,18 @@
   background-color: var(--black-transparent75);
   border-radius: 4px;
 }
+.places-section::before {
+  top: -25px;
+}
 .places-section::after {
-  content: "";
-  position: absolute;
   bottom: -50px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 110px;
-  height: 5px;
-  background-color: var(--black-transparent75);
-  border-radius: 4px;
 }
 
 .places-card {
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
-.places-card::after {
+.places-card::before {
   content: "";
   position: absolute;
   top: 0;
@@ -42,13 +38,36 @@
   height: 100%;
   border-radius: 4px;
 }
+.places-card:hover .places-card_titles {
+  left: -100%;
+}
+.places-card:hover .places-card_texts {
+  right: 0;
+}
 
-.places-card__text-ctn {
+.places-card_titles {
+  position: absolute;
   left: 50%;
   bottom: -3%;
   transform: translate(-50%, -50%);
+  width: 100%;
+  transition: 1.3s;
 }
 
 .card-text {
   line-height: 30px;
+}
+
+.places-card_texts {
+  font-size: 1.2rem;
+  background-color: rgb(0 0 0 / 15%);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  border-radius: 5px;
+  transition: 1s;
+  cursor: default;
 }
