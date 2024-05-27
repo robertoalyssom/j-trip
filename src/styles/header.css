@@ -1,12 +1,7 @@
 .header {
-  background-color: var(--white);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: rgb(0 0 0 / 55%);
   backdrop-filter: blur(10px);
   z-index: 9;
-  width: 100%;
 }
 
 .logo-header {
@@ -16,13 +11,6 @@
   font-size: 2.1rem;
 }
 
-.header-nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.header-nav__link:hover {
-  /* It isn't working */
-  color: var(--red);
+.nav-item_link:hover {
+  color: var(--red) !important;
 }
