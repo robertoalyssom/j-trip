@@ -1,0 +1,35 @@
+.hero-ctn {
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 575px) {
+  .hero-ctn > h2 {
+    font-size: 5.5rem !important;
+  }
+
+  .hero-ctn > p {
+    font-size: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .hero-ctn > a {
+    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hero-ctn > h2 {
+    font-size: 6.5rem !important;
+  }
+
+  .hero-ctn > p {
+    font-size: 2.8rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .hero-ctn > a {
+    padding: 0.7rem 4rem !important;
+    font-size: 2rem !important;
+  }
+}
