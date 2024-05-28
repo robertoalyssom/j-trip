@@ -71,3 +71,23 @@
   transition: 1s;
   cursor: default;
 }
+
+@media screen and (max-width: 575px) {
+  .places-title {
+    font-size: 2.5rem !important;
+  }
+
+  .places-section div > div {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .places-title {
+    font-size: 4.7rem !important;
+  }
+
+  .places-section > div > div {
+    padding: 0 0.9rem;
+  }
+}
