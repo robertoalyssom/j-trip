@@ -3,10 +3,6 @@
   padding: 0.5rem 0 7rem 0;
 }
 
-.info-card {
-  width: 20%;
-}
-
 .info-card > i {
   color: var(--red);
 }
@@ -50,4 +46,29 @@
 .tooltip-ctn:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
+}
+
+@media screen and (max-width: 575px) {
+  .info-section {
+    padding-bottom: 4.5rem;
+  }
+
+  .info-card > i {
+    font-size: 2.5rem !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .info-section {
+    padding-bottom: 10rem;
+  }
+
+  .info-section > div > h2 {
+    margin-bottom: 4rem !important;
+  }
+
+  .info-card {
+    gap: 0.7rem;
+    padding: 3rem 0 !important;
+  }
 }
