@@ -14,3 +14,22 @@
 .nav-item_link:hover {
   color: var(--red) !important;
 }
+
+@media screen and (min-width: 1600px) {
+  .header nav {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .logo-header {
+    font-size: 3rem;
+  }
+  .logo-header::first-letter {
+    font-size: 3.1rem;
+  }
+
+  .navbar-nav {
+    font-size: 1.6rem;
+    gap: 1.5rem;
+  }
+}
