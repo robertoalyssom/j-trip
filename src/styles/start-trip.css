@@ -22,3 +22,26 @@
 .start-trip_title {
   font-size: 3.5rem;
 }
+
+@media screen and (max-width: 575px) {
+  .start-trip_title {
+    font-size: 2.2rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .start-trip_text-ctn > a {
+    padding: 0.5rem 3rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .start-trip_title {
+    font-size: 5rem !important;
+  }
+
+  .start-trip_text-ctn > a {
+    font-size: 2rem !important;
+    padding: 0.7rem 3rem !important;
+  }
+}
