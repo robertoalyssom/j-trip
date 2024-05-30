@@ -20,6 +20,16 @@
   list-style: none;
 }
 
+.footer-social a:hover {
+  transform: scale(1.3);
+}
+
+.footer-links_list a :hover {
+  color: var(--black-transparent75);
+  text-decoration: underline;
+  text-decoration-color: var(--black-transparent35);
+}
+
 .icon-insta {
   color: var(--pink);
 }

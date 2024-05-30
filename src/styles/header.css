@@ -11,8 +11,11 @@
   font-size: 2.1rem;
 }
 
+.nav-item_link {
+  transition: 0.1s;
+}
 .nav-item_link:hover {
-  color: var(--red) !important;
+  color: var(--white-shadow) !important;
 }
 
 @media screen and (min-width: 1600px) {

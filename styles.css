@@ -12,6 +12,7 @@
   --black-transparent35: #00000035;
   --white: #ffffff;
   --white-page: #fefbf6;
+  --white-shadow: #c7c7c7;
   --red: #c62828;
   --blue: #1565c0;
   --pink: #ee2391;
@@ -31,6 +32,7 @@ body {
 
 a {
   text-decoration: none;
+  transition: 0.3s ease-in-out;
 }
 
 .logo {
