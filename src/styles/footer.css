@@ -1,8 +1,19 @@
+.footer-ctn {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
 .logo-footer {
   font-size: 2.5rem;
 }
 .logo-footer::first-letter {
   font-size: 2.6rem;
+}
+
+.footer-links_ctn {
+  gap: 5.5rem;
 }
 
 .footer-links_list {
@@ -11,4 +22,81 @@
 
 .icon-insta {
   color: var(--pink);
+}
+
+@media screen and (max-width: 575px) {
+  .footer {
+    width: 90% !important;
+  }
+
+  .footer-ctn {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    gap: 3rem;
+  }
+
+  .footer-logo_ctn {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    justify-self: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .logo-footer {
+    font-size: 3rem;
+  }
+  .logo::first-letter {
+    font-size: 3.1rem;
+  }
+
+  .footer-links_ctn {
+    grid-column: 1 / span 1;
+    gap: 4rem;
+  }
+
+  .footer-links_list li {
+    margin-bottom: 0.7rem;
+    font-size: 1.3rem;
+  }
+
+  .footer-social {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    font-size: 2.1rem !important;
+    gap: 2.5rem !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .footer {
+    width: 80% !important;
+  }
+
+  .footer-ctn {
+    gap: 17rem;
+  }
+
+  .logo-footer {
+    font-size: 3.7rem;
+  }
+  .logo::first-letter {
+    font-size: 3.8rem;
+  }
+
+  .footer-links > h4 {
+    font-size: 1.7rem !important;
+  }
+
+  .footer-links_list li {
+    font-size: 1.5rem;
+  }
+
+  .footer-social {
+    font-size: 2.5rem !important;
+    gap: 2rem !important;
+  }
+
+  .footer > p {
+    font-size: 1.2rem;
+  }
 }
