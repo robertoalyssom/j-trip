@@ -8,7 +8,7 @@
   font-size: 2rem;
 }
 .logo-header::first-letter {
-  font-size: 2.1rem;
+  font-size: 2.1rem !important;
 }
 
 .nav-item_link {
