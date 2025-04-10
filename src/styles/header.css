@@ -18,7 +18,7 @@
   color: var(--white-shadow) !important;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 2300px) {
   .header nav {
     margin-left: 3rem;
     margin-right: 3rem;
