@@ -1,0 +1,11 @@
+@media screen and (min-width: 990px) {
+  .dishes-ctn {
+    max-width: 65% !important;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .dishes-ctn {
+    max-width: 50% !important;
+  }
+}
